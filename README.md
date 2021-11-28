@@ -1,14 +1,14 @@
 # DeeP-ython
 
 
-!!! info "정보"
+!!! info
 
-    If you are [한국어](README.KO.md)
+    If you are Korean, you can check [README.KO.md](README.KO.md) as korean.
 
-## 목차
+## Lists
 
-|DIRECTORY|KOR|ENG|
-|:-------:|:-:|:-:|
-|001|[파이썬의 길(GIL)을 걸어보기]()|[The history and the future of GIL in CPython]()|
+|NO|TITLE|DATE|
+|:-:|:---:|:--:|
+|001|[The history and the future of GIL in CPython]()|2021.11.28|
 
 
