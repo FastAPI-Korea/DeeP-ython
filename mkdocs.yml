@@ -1,0 +1,88 @@
+site_name: DeeP-ython
+site_description: Learn Python Deeply, DeeP-ython
+site_url: https://deepython.weekwith.me/
+
+docs_dir: docs/en
+site_dir: site
+
+theme:
+  name: material
+  custom_dir: resources
+  language: en
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
+  - scheme: slate
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+  features:
+  - header.autohide
+  - search.suggest
+  - search.highlight
+  - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github-alt
+  
+repo_name: GitHub
+repo_url: https://github.com/0417taehyun/DeeP-ython
+edit_uri: ''
+
+plugins:
+- search
+- markdownextradata:
+    data: data
+- tags:
+    tags_file: tags.md
+markdown_extensions:
+- meta
+- tables
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: false
+- mdx_include:
+    base_path: docs
+- admonition
+- codehilite
+- extra
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+- pymdownx.tabbed
+- pymdownx.mark
+- pymdownx.critic
+- pymdownx.caret
+- pymdownx.keys
+- pymdownx.arithmatex:
+    generic: true
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+- Introduction: index.md
+- Tags: tags.md
+
+extra:
+  anaylytics:
+    provider: google
+    property: G-DWSVGLWD3Y
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Korean
+      link: /ko/
+      lang: kr
+
+extra_css:
+- css/termynal.css
+- css/custom.css
+extra_javascript:
+- js/termynal.js
+- js/custom.js

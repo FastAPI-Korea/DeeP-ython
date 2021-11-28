@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta property="robots" content="index, follow" />
+{% endblock %}
+
+{% block disqus %}
+  {% if not page.is_tags %}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7400981351083358"
+    crossorigin="anonymous"></script>
+    <div id="__comments">
+      <script src="https://utteranc.es/client.js"
+        repo="0417taehyun/DeeP-ython"
+        issue-term="pathname"
+        label="comment"
+        theme="dark-blue"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </div>
+  {% endif %}
+{% endblock %}

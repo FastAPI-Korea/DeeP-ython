@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deep-ython"
+version = "1"
+description = "Learn Python Deeply, DeeP-ython"
+authors = ["weekwith.me <leedobby@weekwith.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs = "^1.2.3"
+mkdocs-markdownextradata-plugin = "^0.2.4"
+mdx-include = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
