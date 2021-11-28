@@ -66,6 +66,7 @@ markdown_extensions:
 
 nav:
 - 소개: index.md
+- 파이썬의 길(GIL)을 걸어보기: 1-파이썬의-길-gil-을-걸어보기.md
 - 태그: tags.md
 
 extra:

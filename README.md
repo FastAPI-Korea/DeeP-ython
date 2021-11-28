@@ -1,9 +1,9 @@
 # DeeP-ython
 
 
-!!! info
-
-    If you are Korean, you can check [README.KO.md](README.KO.md) as korean.
+> :information_source: **Information**  
+> 
+> If you are Korean, you can check [README.KO.md](README.KO.md) as korean.
 
 ## Lists
 
