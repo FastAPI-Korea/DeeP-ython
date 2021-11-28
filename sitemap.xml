@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://deepython.weekwith.me/</loc>
+         <lastmod>2021-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deepython.weekwith.me/1-the-history-and-the-future-of-gil-in-cpython/</loc>
+         <lastmod>2021-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deepython.weekwith.me/tags/</loc>
+         <lastmod>2021-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://deepython.weekwith.me/tags/</loc>
+         <lastmod>2021-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
